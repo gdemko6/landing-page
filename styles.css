@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 header, .section-one {
@@ -35,6 +37,7 @@ header {
     align-items: center;
     padding-top: 100px;
     padding-bottom: 100px;
+    justify-content: space-between;
 }
 #section-one-image {
     width: 450px;
@@ -43,4 +46,39 @@ header {
     text-align: center;
     line-height: 225px;
     margin-left: 40px;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+}
+
+#section-two-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 24px;
+}
+
+.image-container, .text-container {
+    display: flex;
+    justify-content: center;
+}
+
+.images {
+    border: 3px solid rgb(53, 118, 238);
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    margin-bottom: 5px;
+    border-radius: 12px;
+}
+
+.text-container > div {
+    width: 100px;
+    margin: 23px;
+    margin-top: 0;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 10px;
 }
