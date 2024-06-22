@@ -26,6 +26,10 @@ header {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bolder;
+    margin-bottom: 10px;
+}
+#hero-secondary {
+    margin-bottom: 10px;
 }
 #logo {
     color: #F9FAF8;
@@ -81,4 +85,24 @@ header {
     text-align: center;
     font-weight: lighter;
     font-size: 10px;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#quote {
+    font-style: italic;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-bottom: 25px;
+    font-size: 24px;
+}
+
+#quote-author {
+    text-align: center;
+    font-weight: bold;
+    margin-left: 650px;
 }
