@@ -106,3 +106,42 @@ header {
     font-weight: bold;
     margin-left: 650px;
 }
+
+.signup {
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.section-four {
+    background-color: white;
+    padding: 50px 0; 
+}
+
+.section-four-content {
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 20px 50px; 
+    background-color: rgb(53, 118, 238);  
+    border-radius: 8px; 
+    color: white;
+    display: flex;
+}
+
+.section-four-header {
+    font-size: 24px; 
+    font-weight: bold; 
+    
+}
+
+.section-four-text {
+    font-size: 18px; 
+}
+
+.section-four-content .signup {
+    width: 125px;
+    height: 33px;
+    font-size: 15px;
+    margin-left: auto;
+    align-self: center;
+}
