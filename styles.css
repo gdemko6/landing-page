@@ -145,3 +145,11 @@ header {
     margin-left: auto;
     align-self: center;
 }
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: white;
+    height: 100px;
+    line-height: 100px;
+}
